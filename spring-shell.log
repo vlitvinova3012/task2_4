@@ -1,0 +1,40 @@
+1739542070736:get-all
+1739542086406:get-by-id --id 1
+1739542100216:delete--id 2
+1739542121847:get-all
+1739542152391:delete --id 2
+1739542203743:add --title "Book Title" --genre "Genre" --author "Author Name" --comment "Some comment"
+1739542256697:stacktrace
+1739542360937:add --title "Book Title" --genre "Genre" --author "Author Name" --comment "Some comment"
+1739542366797:stacktrace
+1739542604823:add --title "Book Title" --genre "Genre" --author "Author Name" --comment "Some comment"
+1739542615963:stacktrace
+1739542673327:add --title "Book Title" --genre "Genre" --author "Author Name" --comment "Some comment"
+1739542678913:stacktrace
+1739543004232:add --title "Book Title" --genre "Genre" --author "Author Name" --comment "Some comment"
+1739543009160:stacktrace
+1739543150060:add --title "Book Title" --genre "Genre" --author "Author Name" --comment "Some comment"
+1739543154538:stacktrace
+1741073453183:get-by-id --id 1
+1741073466191:delete --id 1
+1741073478119:get-all
+1741073539733:add --title "test" --genre "test genre" --author "test author" --comment "publish"
+1741073558335:stacktrace
+1741677922285:get-by-id --id 1
+1741677932719:delete --id 1
+1741677942516:aet-all
+1741677954109:get-all
+1741678023862:add --title "title" --genre "genre" --author "author" --comment "comment"
+1741678050185:stacktrace
+1741678758360:add --title "title" --genre "genre" --author "author" --comment "comment"
+1741678765173:get-all
+1741678944164:update --title "title" --author "Tolstoy L.N." --genre "Novel" --comment "for update"
+1741678952082:get-all
+1741678993751:add --title "EMPTY"
+1741679002467:satcktrace
+1741679009019:stacktrace
+1741679018087:add --title "EMPTY"
+1741679023627:stacktrace
+1741679545700:update --title "title" --author "Tolstoy L.N." --genre "Novel" --comment "for update"
+1741679589279:update --title "title" --author null --genre null --comment null
+1741679594706:get-all
