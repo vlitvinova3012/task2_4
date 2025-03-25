@@ -13,7 +13,6 @@ public interface GenreRepository extends JpaRepository<GenreEntity, Long> {
     @Query(value = "INSERT INTO Genre (name) VALUES (:name)", nativeQuery = true)
     void saveByName(@Param("name") String name);
 
-    @Query(value = "SELECT * FROM Genre WHERE name = :name", nativeQuery = true)
-    GenreEntity findByName(@Param("name") String name);
+    GenreEntity findByName(String name);
 
 }

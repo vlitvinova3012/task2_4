@@ -13,6 +13,5 @@ public interface CommentRepository extends JpaRepository<CommentEntity, Long> {
     @Query(value = "INSERT INTO Comment (comment) VALUES (:comment)", nativeQuery = true)
     void saveByComment(@Param("comment") String comment);
 
-    @Query(value = "SELECT * FROM Comment WHERE comment = :comment", nativeQuery = true)
-    CommentEntity findByComment(@Param("comment") String comment);
+    CommentEntity findByComment(String comment);
 }

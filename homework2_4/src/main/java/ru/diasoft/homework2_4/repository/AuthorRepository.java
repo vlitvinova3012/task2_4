@@ -13,6 +13,5 @@ public interface AuthorRepository extends JpaRepository<AuthorEntity, Long> {
     @Query(value = "INSERT INTO Author (name) VALUES (:name)", nativeQuery = true)
     void saveByName(@Param("name") String name);
 
-    @Query(value = "SELECT * FROM Author WHERE name = :name", nativeQuery = true)
-    AuthorEntity findByName(@Param("name") String name);
+    AuthorEntity findByName(String name);
 }

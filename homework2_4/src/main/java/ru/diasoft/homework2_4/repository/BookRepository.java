@@ -16,6 +16,5 @@ public interface BookRepository extends JpaRepository<BookEntity, Long> {
                   @Param("genre_id") Long genreId,
                   @Param("comment_id") Long commentId);
 
-    @Query(value = "SELECT * FROM Book WHERE title = :title", nativeQuery = true)
-    BookEntity findByTitle(@Param("title") String title);
+    BookEntity findByTitle(String title);
 }

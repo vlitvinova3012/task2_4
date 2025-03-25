@@ -1,6 +1,7 @@
 package ru.diasoft.homework2_4.shellcontroller;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Profile;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @ShellComponent
 @RequiredArgsConstructor
+@Profile("!test")
 public class BookCommands {
 
     private final BookEntityService service;
